@@ -1,0 +1,42 @@
+/* --------------------- What are we doing --------------*/
+.we-doing .section-title {
+  margin-bottom: 50px;
+}
+
+.we-doing .list {
+  display: flex;
+  align-items: center;
+}
+
+.we-doing .item {
+  position: relative;
+  width: 370px;
+}
+
+.we-doing .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.we-doing .subtitle-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  min-height: 70px;
+  width: 100%;
+  padding: 27px 0;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.we-doing .subtitle {
+  font-family: 'Roboto';
+
+  text-align: center;
+
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--white-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
