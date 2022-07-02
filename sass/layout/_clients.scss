@@ -1,14 +1,14 @@
 /* ----------------------------------  - CLIETS- -------------------------------------------- */
-.clients-list {
+.clients {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  list-style: none;
 }
 
-.clients-items:not(:last-child) {
+.clients__items:not(:last-child) {
   margin-right: 30px;
 }
-.client-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,13 +21,13 @@
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client-icon {
-  fill: currentColor;
-}
 
-.client-link:hover,
-.client-link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+}
+.client__icon {
+  fill: currentColor;
 }

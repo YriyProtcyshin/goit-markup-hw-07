@@ -1,9 +1,16 @@
 /* ------------------- FEATURE-LIST-------------------------------------- */
 .features {
-  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  list-style: none;
 }
 
-.features-box {
+.features__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,24 +20,15 @@
   margin-bottom: 30px;
 }
 
-.features-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-}
-.features-list .item {
+.features__item {
   width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.features-list .item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.features-list .title {
+.features__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;

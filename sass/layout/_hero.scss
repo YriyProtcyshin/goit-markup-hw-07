@@ -11,32 +11,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.hero__title {
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
 
-  &__title {
-    width: 696px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white-color);
-  }
-
-  &__button {
-    background-color: var(--accent-color);
-    border-color: transparent;
-    padding: 10px 32px;
-    border-radius: 4px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--white-color);
-
-    cursor: pointer;
-  }
+.hero__button {
+  margin: auto;
+  padding: 10px 32px;
+  box-shadow: none;
+  cursor: pointer;
 }

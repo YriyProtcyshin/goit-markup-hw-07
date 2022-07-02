@@ -40,8 +40,25 @@ img {
   padding-bottom: 94px;
 }
 
-.bg-grey {
+.section--pb0 {
+  padding-bottom: 0;
+}
+
+.section--bg-grey {
   background-color: #f5f4fa;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading-color);
+}
+
+.section__title--mb50 {
+  margin-bottom: 50px;
 }
 
 /* CONTAINER */
@@ -54,11 +71,3 @@ img {
 }
 
 /* MAIN */
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--heading-color);
-}
