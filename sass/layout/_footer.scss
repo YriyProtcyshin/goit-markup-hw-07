@@ -1,7 +1,7 @@
 /* --------------------------------------- FOOTER --------------------------------------- */
 
 .footer {
-  background-color: var(--second-background-color);
+  background-color: $second-background-color;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -13,7 +13,7 @@
 
 .footer__logo {
   margin-bottom: 20px;
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .footer__address {
@@ -21,7 +21,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: $white-color;
 }
 .footer__list {
   margin-top: 9px;
@@ -34,14 +34,14 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--footer-contact-color);
+  color: $footer-contact-color;
   text-decoration: none;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
@@ -57,7 +57,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .footer__subscribe {

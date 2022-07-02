@@ -6,7 +6,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-color);
+  color: $main-color;
   list-style: none;
 }
 
@@ -16,7 +16,7 @@
   align-items: center;
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: $section-color;
   margin-bottom: 30px;
 }
 
@@ -35,5 +35,5 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--heading-color);
+  color: $heading-color;
 }

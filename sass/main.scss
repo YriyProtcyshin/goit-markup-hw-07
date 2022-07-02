@@ -1,20 +1,26 @@
+// --------  UTILS  ------------------
+@import './utils/visuale-hidden';
+@import './utils/is-hidden';
+@import './utils/variables';
+
+//---------- BASE  -------------------
 @import './base/common';
+
+// -------- COMPONENT -----------------
 @import './component/logo';
 @import './component/btn';
-@import './layout/header';
+@import './component/modal';
+@import './component/backdrop';
+@import './component/subscribe-form';
+@import './component/main-form';
 @import './component/social-list';
 
+// --------- LAYOUT ------------------
+@import './layout/header';
 @import './layout/hero';
 @import './layout/feature';
 @import './layout/doing';
 @import './layout/our_team';
 @import './layout/clients';
 @import './layout/portfolio';
-
-@import './component/modal';
-@import './utils/backdrop';
-@import './utils/is-hidden';
-@import './utils/main-form';
-
 @import './layout/footer';
-@import './utils/subscribe-form';

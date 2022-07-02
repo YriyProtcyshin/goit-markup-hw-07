@@ -404,7 +404,7 @@
           <ul class="form__list">
             <li class="form__item">
               <label for="name" class="form__label">Имя</label>
-              <input type="text" name="name" id="name" class="form__input" autofocus />
+              <input type="text" name="name" id="name" class="form__input" />
               <svg class="form__input-icon">
                 <use href="./images/sprite.svg#icon-person"></use>
               </svg>
@@ -435,7 +435,12 @@
           </ul>
 
           <label for="checkbox" class="form__checkbox-label">
-            <input type="checkbox" name="checkbox" id="checkbox" class="form__checkbox" />
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="checkbox"
+              class="form__checkbox visually-hidden"
+            />
             <span class="form__checkbox-icon"></span>
             Соглашаюсь с рассылкой и принимаю
             <a href="#" class="form__checkbox-link"> Условия договора</a>

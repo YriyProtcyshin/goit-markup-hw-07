@@ -6,10 +6,10 @@
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--heading-color);
+  color: $heading-color;
   text-decoration: none;
 
   span {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
